@@ -1,0 +1,34 @@
+{
+  "name": "@creatrix/common",
+  "version": "0.0.1",
+  "description": "Javacript entities, youtube image, string replace",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/creatrixlb/common.git"
+  },
+  "keywords": [
+    "html entites",
+    "byte to mb",
+    "mb to bytes",
+    "Image Youtube",
+    "Arabic Numbers",
+    "string replace",
+    "First Characters of a sentence",
+    "First CharactersOf Word in a sentence",
+    "sentence space to Dash"
+  ],
+  "author": "Creatrix Digital Agency <developer@creatrix-lb.com> (https://creatrix-lb.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/creatrixlb/common/issues"
+  },
+  "depenndicies":{
+    "html-entities": "^2.3.2",
+    "@creatrix/typeofdata": "^0.0.2"
+  },
+  "homepage": "https://github.com/creatrixlb/rncommon#readme"
+}
