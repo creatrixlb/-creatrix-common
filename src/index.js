@@ -1,5 +1,5 @@
 import {decode} from 'html-entities';
-import {isNotEmpty} from '@creatrix/typeofdata';
+import {isNotEmpty,isObject,isArrayCount} from '@creatrix/typeofdata';
 export const entity=(string)=>{return(`${decode(string)}`);}
 
 export const entityReplace=(value,replace='')=>{return isNotEmpty(value)?entity(value):(isNotEmpty(replace)?entity(replace):'');}
